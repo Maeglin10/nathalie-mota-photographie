@@ -1,0 +1,121 @@
+/*
+ Theme Name:   Twenty Twenty-Four Child
+ Theme URI:    http://nathalie-mota-photographie.local/
+ Description:  Thème enfant du thème Twenty Twenty-Four - nommé motachildtheme
+ Author:       Valentin Milliand
+ Author URI:   http://nathalie-mota-photographie.local/
+ Template:     twentytwentyfour
+ Version:      1.0.0
+*/
+
+/* Importer les styles du thème parent */
+@import url("../twentytwentyfour/style.css");
+
+/* Importer police écriture */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Header */
+
+
+/* Footer */
+.site-footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-navigation ul li {
+    display: inline;
+}
+
+.footer-navigation ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Général desktop */
+h1,
+h2,
+h3 {
+    font-family: 'Space Mono', monospace;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 142.18px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 66px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.66px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+}
+
+/* Général mobile */
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 27.59px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 40.86px;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26.66px;
+        letter-spacing: 0.1em;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        text-align: left;
+    }
+}
